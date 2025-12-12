@@ -7,7 +7,10 @@ function App() {
   return (
     <>
       <Form />
-      <Lottie style={{position:"absolute", top: "0" , width: "280px"}} animationData={animation} />
+      <Lottie
+        style={{ position: "absolute", top: "0", width: "280px" }}
+        animationData={animation}
+      />
     </>
   );
 }
