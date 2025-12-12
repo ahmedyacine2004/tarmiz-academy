@@ -2,6 +2,7 @@ body {
   background-color: #0a003b;
   font-family: Montserrat;
   font-size: 14px;
+  color: white;
 }
 
 #loanForm {
@@ -80,5 +81,16 @@ input[type="checkbox"] {
 }
 
 .disabled {
-    background-color: #555555d1;
+  background-color: #555555d1;
+}
+
+li {
+  color: white ;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: white ;
+  padding: 10px;
 }
